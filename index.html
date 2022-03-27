@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style/reset.css">
+</head>
+<body>
+<div id="app">
+  <canvas class="canvas">
+    해당 브라우저는 지원하지 않습니다.
+  </canvas>
+</div>
+
+<script>
+  const canvas = document.querySelector('.canvas')
+
+  canvas.width = window.innerWidth
+  canvas.height = window.innerHeight
+
+  const context = canvas.getContext('2d')
+
+
+</script>
+</body>
+</html>
